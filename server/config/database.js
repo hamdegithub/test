@@ -78,10 +78,10 @@ let profile = `CREATE TABLE if not exists profile(
 const mysql = require("mysql");
 
 const pool = mysql.createPool({
-  host: process.env.HOST,
-  user: process.env.USER,
-  password: process.env.PASS,
-  database: process.env.MS,
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "ht",
   connectionLimit: 10,
 });
 
