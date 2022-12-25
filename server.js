@@ -15,4 +15,4 @@ app.use("/api/users", userRouter);
 app.use("/api/question", questionRouter);
 app.use("/api/answer", answerRouter);
 
-app.listen(3306, () => console.log(`Listening at http://localhost:3306`)); //
+app.listen(3306, () => console.log(`Listening at mysql-foo:3306`)); //

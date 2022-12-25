@@ -78,7 +78,7 @@ let profile = `CREATE TABLE if not exists profile(
 const mysql = require("mysql");
 
 const pool = mysql.createPool({
-  host: "localhost",
+  host: "mysql-foo:3306",
   user: "root",
   password: "",
   port: 3306,
